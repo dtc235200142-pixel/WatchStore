@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    background-color: #f5f6fa;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+
+/* THANH MENU */
+
+.dashboard-navbar {
+    background-color: #417690;
+    padding: 18px 0;
+}
+
+.navbar-brand {
+    color: #f5dd5d !important;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+
+/* TIÊU ĐỀ */
+
+.page-title {
+    font-weight: bold;
+    color: #24485a;
+    margin-bottom: 10px;
+}
+
+.section-title {
+    font-weight: bold;
+    color: #24485a;
+    margin-bottom: 20px;
+}
+
+
+/* THẺ THỐNG KÊ */
+
+.stat-card {
+    padding: 25px;
+    border-radius: 12px;
+    color: white;
+    height: 100%;
+    box-shadow: 0 4px 12px #00000015;
+    transition: 0.3s;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.stat-card h5 {
+    font-size: 17px;
+}
+
+.stat-card h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 18px 0;
+    overflow-wrap: anywhere;
+}
+
+.stat-card p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.blue {
+    background: #2563eb;
+}
+
+.green {
+    background: #16a34a;
+}
+
+.orange {
+    background: #b8860b;
+}
+
+.purple {
+    background: #7c3aed;
+}
+
+
+/* THỐNG KÊ TỒN KHO */
+
+.inventory-card {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid #dddddd;
+    margin-bottom: 20px;
+}
+
+.inventory-card h5 {
+    font-weight: bold;
+}
+
+.inventory-card h3 {
+    font-weight: bold;
+}
+
+.progress {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+/* BIỂU ĐỒ */
+
+.chart-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #dddddd;
+    height: 100%;
+}
+
+.chart-card h5 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.chart-container {
+    position: relative;
+    height: 320px;
+}
+
+
+/* BẢNG ĐƠN HÀNG */
+
+.table {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.badge {
+    padding: 8px 12px;
+    font-size: 13px;
+}

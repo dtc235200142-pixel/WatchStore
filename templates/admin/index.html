@@ -1,0 +1,45 @@
+{% extends "admin/index.html" %}
+
+{% block content %}
+
+<div style="
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 25px;
+">
+
+    <h2 style="color: #417690;">
+
+        WATCH STORE DASHBOARD
+
+    </h2>
+
+    <p style="color: #555555;">
+
+        Thống kê doanh số, đơn hàng
+        và số lượng tồn kho.
+
+    </p>
+
+    <a href="{% url 'dashboard' %}"
+       style="
+           display: inline-block;
+           background: #417690;
+           color: white;
+           padding: 12px 25px;
+           border-radius: 5px;
+           text-decoration: none;
+           font-weight: bold;
+       ">
+
+        📊 XEM DASHBOARD THỐNG KÊ
+
+    </a>
+
+</div>
+
+{{ block.super }}
+
+{% endblock %}
