@@ -1,1 +1,32 @@
+{% load static %}
 
+<link rel="stylesheet" href="{% static 'css/chatbot.css' %}">
+
+<button id="chat-toggle" onclick="toggleChat()">
+    💬
+</button>
+
+<div id="chat-box">
+
+    <div class="chat-header">
+        WatchStore - Hỗ trợ 24/7
+        <button onclick="toggleChat()">✕</button>
+    </div>
+
+    <div id="chat-messages">
+        <div class="bot-message">
+            Xin chào! Tôi là trợ lý tự động của
+            WatchStore. Tôi có thể giúp gì cho bạn?
+        </div>
+    </div>
+
+    <div class="chat-input">
+        <input type="text" id="chat-input"
+               placeholder="Nhập tin nhắn...">
+
+        <button onclick="sendMessage()">Gửi</button>
+    </div>
+
+</div>
+
+<script src="{% static 'js/chatbot.js' %}"></script>
